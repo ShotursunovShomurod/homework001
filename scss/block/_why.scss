@@ -1,0 +1,37 @@
+.why__wrapper {
+  width: 100%;
+  margin-top: 67px;
+  height: 453px;
+  display: flex;
+  justify-content: center;
+  .why__img {
+    width: 100%;
+    p {
+      font-family: Exo 2;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 35px;
+      text-align: left;
+
+      display: none;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .why__wrapper {
+    height: 70px;
+    .why__img {
+      p {
+        display: block;
+      }
+      img {
+        display: none;
+      }
+    }
+  }
+}
